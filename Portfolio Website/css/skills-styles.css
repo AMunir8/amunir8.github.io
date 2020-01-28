@@ -1,0 +1,150 @@
+
+
+.size-50 {
+    font-size: 50px;
+}
+
+.service-box {
+    margin-bottom: 30px;
+}
+
+.service-box h3 {
+    margin-top: 0;
+}
+.container {
+  margin-top: 2em;
+}
+
+.title-skills {
+  font-size: 2em;
+  margin-top: 4em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  transition: all 400ms ease-in-out;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.bar {
+  width: 80%;
+  margin: 2em auto;
+}
+
+.skill {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 0.25em;
+}
+
+.speech-bubble {
+  font-size: 0.75em;
+  line-height: 2em;
+  position: absolute;
+  top: -2.7em;
+  text-align: center;
+  min-width: 3em;
+  border-radius: 0.3em;
+  display: none;
+}
+
+.html{
+  left:calc(95% - 1.5em);
+}
+.python,
+.unix {
+  left: calc(80% - 1.5em);
+}
+
+.javascript {
+  left: calc(60% - 1.5em);
+}
+
+.java{
+  left:calc(85% - 1.5em);
+}
+.R {
+  left: calc(60% - 1.5em);
+}
+
+.C {
+  left: calc(75% - 1.5em);
+}
+
+.speech-bubble:after {
+  border: 0.5em solid transparent;
+  content: "";
+  margin-left: -0.5em;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.bar-outer {
+  height: 1.25em;
+  background: #EEEEEE;
+  position: relative;
+  border-radius: 0.3em;
+}
+
+.bar-inner {
+  width: 0;
+  height: 1.25em;
+  border-radius: 0.3em;
+}
+
+.ht, .html {
+  background: #FFF0BD;
+}
+
+.html:after {
+  border-top-color: #FFF0BD;
+}
+
+.jq, .javascript {
+  background: #FFE99E;
+}
+
+.javascript:after {
+  border-top-color: #FFE99E;
+}
+
+.sk, .java {
+  background: #FFE281;
+}
+
+.java:after {
+  border-top-color: #FFE281;
+}
+
+.ph, .python {
+  background: #FFDB64;
+}
+
+.python:after {
+  border-top-color: #FFDB64;
+}
+
+.il, .R {
+  background: #FFD547;
+}
+
+.R:after {
+  border-top-color: #FFD547;
+}
+
+.in, .C {
+  background: #FFD030;
+}
+
+.C:after {
+  border-top-color: #FFD030;
+}
+
+.fl, .unix {
+  background: #ffbf00;
+}
+
+.unix:after {
+  border-top-color: #ffbf00;
+}
